@@ -369,7 +369,7 @@ header
              
 
 /* RESPONSIVE */
-@media all and (max-width: 959px)
+@media all and (max-width: 769px)
 {
  
     /* HEADER */    
@@ -387,17 +387,18 @@ header
     header figure
     {
         width: 100%;
-           box-shadow: 0 0 0.5em #C6C6C6;
+        height: 200px;
+        margin-bottom: 0px;
     }
     
     
      figure #photo_cv
     {
-        width: 60%;
+        width: 150px;
         border-radius: 250px 250px 250px 250px;
-        margin-left: 20%;
-        margin-top: 20%;
-        margin-bottom: 20%;
+        display: block;
+        margin: auto;
+        margin-top: 22px;
     }
 
     /* titre principal */
@@ -453,9 +454,8 @@ header
     main #section_gauche
     {
         width: 100%;
-        margin-top: 5%;
+        margin-top: -6px;
         height: auto;
-        box-shadow: 0 0 0.5em #C6C6C6;
     }
     
 
@@ -463,6 +463,8 @@ header
     {
         margin-top: 0px;
         font-size: 1.2em;
+        padding-top: 8px;
+        padding-bottom: 8px;
     }
     
     #section_gauche .p_section_gauche
@@ -529,9 +531,10 @@ header
     li
     {
         flex-direction: column;
-        margin-top: 10%;
+        margin-top: 0%;
     }
-
+    
+  
               
     .li1:before
     {
@@ -558,7 +561,7 @@ header
     .informations
     {
         width: 80%;
-        margin-bottom: 55px;
+        margin-bottom: 25px;
         margin-left: 20px;
         text-align: justify;
         word-wrap: break-word;
@@ -572,7 +575,7 @@ header
 
     #section_droite h2
     {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     #section_droite .titre_information
@@ -584,6 +587,7 @@ header
     {
         border: 0.5px solid #feca09;
         margin-top: -15px;
+        margin-bottom: 40px;
         width: 100%;
     }
 
@@ -593,6 +597,7 @@ header
      #listes_recommandations
     {
         flex-direction: column;
+        margin-top: -20px;
     }
     
 
@@ -605,20 +610,20 @@ header
     }
      .email_recommandations
     {
-        margin-bottom: 10%;
         font-weight: normal;
     }
     
     #listes_recommandations ul:nth-child(1)
     {
         border-bottom: 1px dotted #424242;
+        margin-bottom: 5px;
+        padding-bottom: 20px;
     }
     
 }
 
 
-
-@media all and (min-width: 959px) and (max-width: 1280px)
+@media all and (min-width: 769px) and (max-width: 1280px)
     
 {
     
