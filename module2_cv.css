@@ -389,6 +389,7 @@ li
 		width: 100%;
 		margin: 0px;
 		padding: 0px;
+        padding-bottom: 25px;
 	}
 
 	main #section_gauche
@@ -532,7 +533,7 @@ li
 
 	#listes_recommandations ul:nth-child(1)
 	{
-		border-bottom: 1px dotted #424242;
+		border-bottom: 0px dotted #424242;
 		margin-bottom: 5px;
 		padding-bottom: 20px;
 	}
@@ -719,7 +720,7 @@ li
 
 	#listes_recommandations ul:nth-child(1)
 	{
-		border-bottom: 1px dotted #424242;
+		border-bottom: 0px solid #FFF;
 		margin-bottom: 5px;
 		padding-bottom: 20px;
 	}
